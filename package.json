@@ -1,0 +1,41 @@
+{
+  "name": "react-express-session-starter",
+  "version": "1.0.0",
+  "description": "A boilerplate to create a full stack app with react as the front-end, the express as the server and express-session as user authentication(with different permissions).",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "client": "cd client && npm run start",
+    "server": "nodemon server.js",
+    "start:dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start:prod": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewlin618/react-express-sesseion-starter.git"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "session",
+    "starter"
+  ],
+  "author": "Andrew Lin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewlin618/react-express-sesseion-starter/issues"
+  },
+  "homepage": "https://github.com/andrewlin618/react-express-sesseion-starter#readme",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
