@@ -1,0 +1,31 @@
+[
+    {
+        "username": "andrewlin",
+        "password": "1234567890",
+        "gender": "male",
+        "permission": "admin",
+        "birthday": "06/18/1994",
+        "nationality": "China",
+        "avatar_url":"https://p3.pstatp.com/large/22d80001e888dc0181b4?123.jpg"
+      }
+    ,
+    {
+        "username": "lucas",
+        "password": "0987654321",
+        "gender": "male",
+        "permission": "basic",
+        "birthday": "04/05/1994",
+        "nationality": "China",
+        "avatar_url":"https://pic1.zhimg.com/v2-1acfaf0c19fab3417d5a66650335d4f3_b.jpg"
+      }
+    ,
+    {
+        "username": "mercia",
+        "password": "0987654321",
+        "gender": "female",
+        "permission": "basic",
+        "birthday": "10/11/1998",
+        "nationality": "China",
+        "avatar_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT9R6Jaox0JL_7nw-dviNlJVdd-E666W8JCPA&usqp=CAU"
+      }
+]

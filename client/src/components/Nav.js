@@ -19,7 +19,7 @@ const Nav = () => {
             <button onClick={() => {
               auth.logout();
               history.push("/");
-            }}>Sign out</button>
+            }}>Log out</button>
           }
           {!auth.user &&
             <Link to="/login" style={{ marginRight: '30px' }}>Login/Signup</Link>
